@@ -45,6 +45,7 @@ jobs:
   build:
     name: Build uYouPlus
     runs-on: macos-12
+    timeout-minutes: 20
     permissions:
       contents: write
 
